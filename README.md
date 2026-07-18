@@ -1,24 +1,36 @@
-# 재린 ♥ MJ 모바일 청첩장
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Vercel 배포용 Next.js 프로젝트입니다.
+## Getting Started
 
-## 내용 수정
+First, run the development server:
 
-`app/page.js` 상단의 `WEDDING` 객체에서 다음 내용을 바꿀 수 있습니다.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-- 신랑·신부 이름
-- 날짜와 시간
-- 예식장 이름 및 주소
-- 부모님 성함
-- 계좌번호
-- 지도 URL
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 배포
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-GitHub 저장소의 기존 파일을 모두 지우고 이 프로젝트의 파일과 폴더를 업로드하면
-연결된 Vercel 프로젝트가 자동으로 다시 배포됩니다.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## 현재 임시 기능
+## Learn More
 
-RSVP 폼은 화면만 완성된 상태이며, 제출 내용을 실제로 저장하려면
-Google Sheets, Formspree 또는 별도 데이터베이스 연결이 필요합니다.
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
