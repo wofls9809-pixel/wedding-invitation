@@ -647,3 +647,32 @@
     right: 18px;
   }
 }
+
+.floatingArt {
+  margin: -15px -21px 22px;
+  animation: gentleFloat 6s ease-in-out infinite;
+  transform-origin: center 72%;
+}
+
+.floatingArt img { display:block; width:100%; height:auto; }
+
+.accountIntro,
+.rsvpSection p {
+  margin: 0 0 28px;
+  font-family: var(--font-serif);
+  font-size: 14px;
+  line-height: 1.9;
+  color: #697067;
+}
+
+@keyframes gentleFloat {
+  0%, 100% { transform: translateY(0) rotate(-.15deg); }
+  50% { transform: translateY(-8px) rotate(.15deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .floatingArt,
+  .scrollHint span,
+  .cloudOne,
+  .cloudTwo { animation: none !important; }
+}
