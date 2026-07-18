@@ -1,0 +1,112 @@
+* { box-sizing: border-box; }
+
+:root {
+  --bg: #f8f4ec;
+  --paper: #fffdf8;
+  --text: #3e443d;
+  --muted: #858b7f;
+  --accent: #d7a853;
+  --line: #e9e0d0;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Pretendard", "Noto Sans KR", Arial, sans-serif;
+  line-height: 1.8;
+}
+
+.card {
+  width: min(100%, 430px);
+  margin: 0 auto;
+  background: var(--paper);
+  min-height: 100vh;
+  overflow: hidden;
+  box-shadow: 0 0 40px rgba(69, 64, 52, 0.08);
+}
+
+.hero, .section {
+  padding: 72px 28px;
+  text-align: center;
+  border-bottom: 1px solid var(--line);
+}
+
+.hero {
+  padding-top: 90px;
+  background:
+    radial-gradient(circle at 20% 10%, rgba(255,255,255,.9), transparent 34%),
+    linear-gradient(#edf4ee, #fffdf8 70%);
+}
+
+.eyebrow {
+  margin: 0 0 18px;
+  font-size: 11px;
+  letter-spacing: .24em;
+  color: var(--muted);
+}
+
+h1 {
+  margin: 0;
+  font-family: Georgia, serif;
+  font-size: 38px;
+  font-weight: 500;
+  letter-spacing: -.03em;
+}
+
+h1 span { color: var(--accent); }
+
+.date {
+  margin: 14px 0 30px;
+  color: var(--muted);
+  letter-spacing: .12em;
+}
+
+.placeholder {
+  display: grid;
+  place-items: center;
+  min-height: 360px;
+  margin: 0 -28px 34px;
+  padding: 32px;
+  background:
+    linear-gradient(rgba(255,255,255,.15), rgba(255,255,255,.15)),
+    linear-gradient(160deg, #cfe5ea, #f6e7a7 55%, #b9d3ae);
+  color: rgba(62,68,61,.72);
+  font-size: 14px;
+}
+
+.message { margin: 0; }
+
+.section h2 {
+  margin: 0 0 24px;
+  font-family: Georgia, serif;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.section p { margin: 8px 0; }
+
+.thanks {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(#fffdf8, #edf4ee);
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity .9s ease, transform .9s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 430px) {
+  .card { box-shadow: none; }
+}
