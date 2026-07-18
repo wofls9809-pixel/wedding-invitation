@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 840">
+<defs><filter id="w"><feTurbulence baseFrequency=".025" numOctaves="3"/><feDisplacementMap in="SourceGraphic" scale="8"/></filter></defs>
+<path fill="#c7dfe0" d="M0 0h900v490Q650 430 450 500T0 475Z" opacity=".75"/>
+<path fill="#dce2bd" d="M0 450Q190 380 390 470t510-5v375H0Z"/>
+<g filter="url(#w)">
+ <path fill="#e8d48b" d="M190 620q250-120 520 0l-80 170H235Z" opacity=".8"/>
+ <ellipse cx="455" cy="645" rx="230" ry="62" fill="#e6a697" opacity=".45"/>
+ <g transform="translate(250 365)">
+  <circle cx="80" cy="77" r="47" fill="#dfb18f"/><path fill="#393a31" d="M35 74Q40 17 81 16q48 2 48 61-47-30-94-3Z"/>
+  <path fill="#eee9d9" d="M24 124q55-28 112 1l25 186H2Z"/><path fill="#c5af8d" d="M15 285h137l-15 145H35Z"/>
+ </g>
+ <g transform="translate(440 355)">
+  <circle cx="81" cy="79" r="46" fill="#e0b391"/><path fill="#38382f" d="M34 81Q24 23 82 16q56 6 51 78-25-10-31-51-27 28-68 38Z"/>
+  <path fill="#f8f1de" d="M15 128q64-31 132 1l28 256H-8Z"/>
+ </g>
+ <g transform="translate(365 545) rotate(5)">
+  <path fill="#fbfaf2" d="M0 27q65-42 132 0l-10 130H7Z"/><ellipse cx="65" cy="26" rx="35" ry="31" fill="#e1b392"/>
+  <path fill="#4c4338" d="M31 20Q40-15 66-7q28 1 33 31-31-15-68-4Z"/>
+ </g>
+ <g fill="#f0d26e"><circle cx="110" cy="620" r="13"/><circle cx="778" cy="600" r="12"/><circle cx="95" cy="680" r="9"/><circle cx="805" cy="690" r="10"/></g>
+</g>
+</svg>

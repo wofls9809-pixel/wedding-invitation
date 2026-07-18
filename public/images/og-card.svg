@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#f5efe2"/>
+<path fill="#c5dde0" d="M0 0h1200v360Q900 300 600 370T0 345Z"/>
+<path fill="#d7dfbb" d="M0 350q280-80 590 25t610-10v265H0Z"/>
+<g text-anchor="middle" fill="#3f493f">
+ <text x="600" y="155" font-family="serif" font-size="24" letter-spacing="8">WEDDING INVITATION</text>
+ <text x="600" y="260" font-family="serif" font-size="72">재린 ♥ MJ</text>
+ <text x="600" y="320" font-family="serif" font-size="28" letter-spacing="7">2026. 09. 22</text>
+</g>
+<g transform="translate(480 360)">
+ <circle cx="75" cy="70" r="38" fill="#ddb08e"/><path fill="#3a3b33" d="M39 68Q43 24 76 23q39 4 39 48-38-24-76-3Z"/><path fill="#eee9da" d="M28 107h98l20 150H8Z"/>
+ <circle cx="190" cy="70" r="38" fill="#ddb08e"/><path fill="#3a3b33" d="M153 70q-6-47 38-49 44 7 38 58-22-8-25-39-24 23-51 30Z"/><path fill="#f6efde" d="M143 107h98l25 150H122Z"/>
+</g>
+</svg>
