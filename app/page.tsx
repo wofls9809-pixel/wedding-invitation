@@ -177,7 +177,7 @@ export default function Home() {
         <Reveal><p>저희의 시작과 곧 찾아올 새 생명을 축하해 주세요.</p></Reveal>
         <Reveal><p>복잡한 결혼식 대신,<br />가장 아끼는 분들만 모시고<br />맛있는 식사를 대접하는 자리를 마련했습니다.</p></Reveal>
         <Reveal><p>저희 두 사람이 부부가 되는 첫걸음이자,<br />오는 9월 태어날 아기의 부모가 되는<br />기쁜 소식을 함께 나누고 싶습니다.</p></Reveal>
-        <Reveal><p>양가 부모님을 모시고<br />편안하게 즐기는 자리인 만큼<br />부담 없이 오셔서<br />기쁜 마음으로 자리를 빛내주시면 감사하겠습니다.</p></Reveal>
+        <Reveal><p>편안하게 즐기는 자리인 만큼<br />부담 없이 오셔서<br />기쁜 마음으로 자리를 빛내주시면 감사하겠습니다.</p></Reveal>
       </div>
       <div className="dress-code"><h3><span>DRESS CODE</span><i aria-hidden="true">·</i><b>RED POINT</b></h3><p>양복에 넥타이 대신 아기자기한 <em>붉은 꽃핀</em>이나,<br />부담없는 정장 대신 <em>붉은색</em>이 들어간 옷이나 아이템으로<br />센스 있게 포인트를 주고 와주세요.<br />함께 모여 사진을 찍을 때 더욱 예쁜 추억이 될 것 같습니다.</p><p className="dress-code-note">*드레스 코드는 참고만 부탁드리며, 편한 복장으로 오셔도 괜찮습니다. 🤍</p></div>
       <div className="contact-links"><a href={`tel:${WEDDING.groomPhone}`}>신랑에게 전화</a><a href={`tel:${WEDDING.bridePhone}`}>신부에게 전화</a></div>
