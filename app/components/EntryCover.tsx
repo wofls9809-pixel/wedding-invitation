@@ -40,7 +40,7 @@ export function EntryCover({ isLeaving, onEnter }: EntryCoverProps) {
 
       <div className="entry-copy">
         <small>WEDDING DINNER INVITATION</small>
-        <h1><span>{WEDDING.groom}</span><i aria-hidden="true" /><span>{WEDDING.bride}</span></h1>
+        <h1><span>{WEDDING.groom}</span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 21.35 10.55 20C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09A6 6 0 0 1 16.5 3C19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.51Z" /></svg><span>{WEDDING.bride}</span></h1>
         <time dateTime="2026-08-15T17:00:00+09:00">{WEDDING.dateLabel}</time>
         <p>우리의 새로운 시작에<br />함께해 주세요.</p>
       </div>
