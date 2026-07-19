@@ -17,8 +17,8 @@ export const metadata: Metadata = {
     description,
     images: [{
       url: previewImage,
-      width: 1200,
-      height: 630,
+      width: 1731,
+      height: 909,
       alt: title,
     }],
   },
