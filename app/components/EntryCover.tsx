@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { WEDDING } from "../data/wedding";
+import coverArtwork from "../../public/cover-watercolor.webp";
 
 type EntryCoverProps = {
   isLeaving: boolean;
@@ -18,10 +19,11 @@ export function EntryCover({ isLeaving, onEnter }: EntryCoverProps) {
     <section className={`entry-cover ${isLeaving ? "is-leaving" : ""}`} aria-label="청첩장 입장 화면">
       <Image
         className="entry-art"
-        src="/cover-watercolor.png"
+        src={coverArtwork}
         alt="하늘과 바다, 꽃길과 등대가 보이는 수채화 풍경"
         fill
-        priority
+        preload
+        quality={85}
         sizes="(max-width: 375px) 100vw, 375px"
       />
       <div className="entry-petals" aria-hidden="true">
