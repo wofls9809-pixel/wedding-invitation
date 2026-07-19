@@ -71,28 +71,14 @@
   font-size: 26px;
 }
 
-.entry-copy h1 i {
-  position: relative;
+.entry-copy h1 svg {
   display: block;
-  width: 9px;
-  height: 9px;
+  width: 13px;
+  height: 13px;
+  flex: 0 0 13px;
   margin: 2px 0;
-  background: #df847b;
-  transform: rotate(45deg);
+  fill: #df847b;
 }
-
-.entry-copy h1 i::before,
-.entry-copy h1 i::after {
-  content: "";
-  position: absolute;
-  width: 9px;
-  height: 9px;
-  border-radius: 50%;
-  background: inherit;
-}
-
-.entry-copy h1 i::before { left: -5px; }
-.entry-copy h1 i::after { top: -5px; }
 
 .entry-copy time {
   display: block;
