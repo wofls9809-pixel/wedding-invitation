@@ -205,7 +205,7 @@ export default function Home() {
       <Reveal><SectionTitle english="Message" korean="참석 의사" /></Reveal><div className="rsvp-watercolor-envelope" aria-hidden="true"><Image src={rsvpEnvelopeArtwork} alt="" sizes="270px" quality={85} loading="lazy" /></div><p>소중한 걸음<br />진심으로 감사드립니다.<br />행복한 날에 함께 해주세요.</p><button className="primary-button" onClick={() => setRsvpOpen(true)}>✉&nbsp;&nbsp; 참석 여부 전하기</button>
     </section>
 
-    <section id="thanks" className="thanks panel"><div className="thanks-copy"><h2>Thank you</h2><p>귀한 시간 내어 함께해 주셔서<br />진심으로 감사드립니다.</p><time dateTime="2026-08-15">2026.08.15</time></div><div className="thanks-family-frame"><Image src={thankYouArtwork} alt="바닷가에 함께 앉은 가족 수채화 일러스트" sizes="(max-width: 375px) 100vw, 375px" quality={85} loading="lazy" /></div></section>
+    <section id="thanks" className="thanks panel"><div className="thanks-copy"><h2>Thank you</h2><p>귀한 시간 내어 함께해 주셔서<br />진심으로 감사드립니다.</p><time dateTime="2026-08-15">2026.08.15</time></div><p className="thanks-signature">With love,<br />Jae Rin &amp; Miyeon</p><div className="thanks-family-frame"><Image src={thankYouArtwork} alt="바닷가에 함께 앉은 가족 수채화 일러스트" sizes="(max-width: 375px) 100vw, 375px" quality={85} loading="lazy" /></div></section>
 
     <button className={`floating-music ${musicOn ? "playing" : ""}`} onClick={toggleMusic} aria-label={musicOn ? "음악 끄기" : "음악 켜기"}><span aria-hidden="true">{musicOn ? "Ⅱ" : "♫"}</span><small>BGM</small></button>
     {toast && <div className="toast">{toast}</div>}
