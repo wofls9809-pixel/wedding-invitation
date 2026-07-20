@@ -3,8 +3,8 @@ import "./globals.css";
 import "./refinement.css";
 
 const siteUrl = "https://wedding-invitation-gray-nine.vercel.app";
-const title = "이재린 · 조미연 결혼식에 초대합니다";
-const description = "2026년 8월 15일 오후 5시, 소중한 날에 함께해 주세요.";
+const title = "이재린 · 조미연 웨딩 디너에 초대합니다";
+const description = "2026년 8월 15일 오후 5시, 저희의 특별한 저녁에 함께해 주세요.";
 const previewImage = `${siteUrl}/wedding-og-image.jpg`;
 
 export const metadata: Metadata = {
