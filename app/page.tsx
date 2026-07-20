@@ -184,7 +184,7 @@ export default function Home() {
     </section>
 
     <section id="date" className="paper panel date">
-      <Reveal><SectionTitle english="Date" korean="예식 안내" /></Reveal>
+      <Reveal><SectionTitle english="Date" korean="웨딩 디너 안내" /></Reveal>
       <div className="calendar-card"><h3>2026.08</h3><div className="week">{["S", "M", "T", "W", "T", "F", "S"].map((day, i) => <b className={i === 0 ? "sun" : ""} key={i}>{day}</b>)}</div><div className="days">{days.map((day, i) => <span className={day === 15 ? "selected" : ""} key={i}>{day > 0 && day <= 31 ? day : ""}</span>)}</div></div>
       <div className="event-info"><p>2026. 08. 15 (토)</p><strong>오후 5시</strong><b>{WEDDING.venue}</b><WeddingCountdown /></div>
     </section>
